@@ -9,3 +9,7 @@ First step is to open up the switch panel and remove all wiring. The main and li
 This was a really quick hack but it got 95% of the functionality of the switch panel back and I no longer have to worry about Saitek screwing things up. 
 
 I have also included my Standard.xml which goes in C:\Users\erban\AppData\Roaming\Microsoft\FSX\Controls. Modifying this file allowed me to connect to the beacon, nav, strobe, taxi, and recognition light switches in the sim. I do over write a number of keyboard shortcuts to make this work.
+
+This uses the switch panel as a standard keyboard so be careful flipping switches when not in FSX. I start my flights with the planes completely cold so setup a default flight configuration for that or make sure the switches are set match your initial plane configuration when starting the simulator. 
+
+There are some annoying things about this but it does work right now. If I get really annoyed I may improve on this by integrating with FSUIPC and using it as a HID device instead of a keyboard. 
