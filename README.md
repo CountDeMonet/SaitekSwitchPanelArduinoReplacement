@@ -4,7 +4,12 @@ The Saitek pro flight panels are awesome. I bought all of them years ago and the
 
 I looked into how to use an arduino as a HID device and I found that the Leonardo has built in HID capabilities. I picked up a couple of Pro Micro clones from amazon and went to work.
 
+![boards](https://raw.githubusercontent.com/CountDeMonet/SaitekSwitchPanelArduinoReplacement/master/board_comp.jpg)
+
 First step is to open up the switch panel and remove all wiring. The main and light switches are simple switches, the gear lever is a 2 position switch, and the magneto is a 5 position switch. This makes for 20 io points needed. Two more than the pro micro has. Luckily the gear lever only needs 1 of the 2 positions to be connected to act like a standard switch. That left one missing input so I didn't connect the cowl flap switch. Every other switch works. The LED's on the landing gear also had to go.
+
+![wired](https://raw.githubusercontent.com/CountDeMonet/SaitekSwitchPanelArduinoReplacement/master/all_wired_up.jpg)
+
 
 This was a really quick hack but it got 95% of the functionality of the switch panel back and I no longer have to worry about Saitek screwing things up.
 
@@ -12,6 +17,6 @@ I have also included my Standard.xml which goes in C:\Users\{username}\AppData\R
 
 This uses the switch panel as a standard keyboard so be careful flipping switches when not in FSX. I start my flights with the planes completely cold so setup a default flight configuration for that or make sure the switches are set match your initial plane configuration when starting the simulator.
 
-There are some annoying things about this but it does work well 
+There are some annoying things about this but it does work well. Here is a youtube video showing how well it works
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/NsAlKy_XCAE/0.jpg)](https://www.youtube.com/watch?v=NsAlKy_XCAE "Fixing Saitek Proflight Switch Panel with Arduino")
