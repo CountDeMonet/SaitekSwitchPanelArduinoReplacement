@@ -13,3 +13,5 @@ I have also included my Standard.xml which goes in C:\Users\{username}\AppData\R
 This uses the switch panel as a standard keyboard so be careful flipping switches when not in FSX. I start my flights with the planes completely cold so setup a default flight configuration for that or make sure the switches are set match your initial plane configuration when starting the simulator.
 
 There are some annoying things about this but it does work well 
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/NsAlKy_XCAE/0.jpg)](https://www.youtube.com/watch?v=NsAlKy_XCAE "Fixing Saitek Proflight Switch Panel with Arduino")
