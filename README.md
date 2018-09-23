@@ -1,12 +1,16 @@
 # Saitek Switch Panel Arduino Pro Micro Replacement
 
-The Saitek pro flight panels are awesome. I bought all of them years ago and they worked great. Unfortunately when I upgraded my computer everything stopped working and the panels became useless. I have followed every guide, every driver, every bios setting I can think of and I can't get any of the panels to function. Now that Logitech has bought Saitek the things are basically bricks. I really want my simulator to work again so I set off to figure out how to fix this.
+The Saitek pro flight panels were awesome. I bought all of them years ago and they worked great... with Windows 7 and USB 2. Unfortunately when I upgraded my computer everything stopped working and the panels became useless. I have followed every guide, every driver, every bios setting I can think of and I can't get any of the panels to function. I've even reinstalled the os several times trying to fix it. Now that Logitech has bought Saitek these things are basically bricks with no support. I really want my simulator to work again so I set off to figure out how to fix this.
 
 I looked into how to use an arduino as a HID device and I found that the Leonardo has built in HID capabilities. I picked up a couple of Pro Micro clones from amazon and went to work.
 
 ![boards](https://raw.githubusercontent.com/CountDeMonet/SaitekSwitchPanelArduinoReplacement/master/board_comp.jpg)
 
-First step is to open up the switch panel and remove all wiring. The main and light switches are simple switches, the gear lever is a 2 position switch, and the magneto is a 5 position switch. This makes for 20 io points needed. Two more than the pro micro has. Luckily the gear lever only needs 1 of the 2 positions to be connected to act like a standard switch. That left one missing input so I didn't connect the cowl flap switch. Every other switch works. The LED's on the landing gear also had to go.
+First step is to open up the switch panel and remove all wiring. The main and light switches are simple switches, the gear lever is a 2 position switch, and the magneto is a 5 position switch. 
+
+![cleaned](https://raw.githubusercontent.com/CountDeMonet/SaitekSwitchPanelArduinoReplacement/master/all_cleaned_up.jpg)
+
+This makes for 20 io points needed. Two more than the pro micro has. Luckily the gear lever only needs 1 of the 2 positions to be connected to act like a standard switch. That left one missing input so I didn't connect the cowl flap switch. Every other switch works. The LED's on the landing gear also had to go.
 
 ![wired](https://raw.githubusercontent.com/CountDeMonet/SaitekSwitchPanelArduinoReplacement/master/all_wired_up.jpg)
 
